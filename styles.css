@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.hiddenLogo{
+    padding: 50px;
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+}
+
+body{
+
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font color: #848484;
+}
+
+
+
+a{
+
+    text-decoration: none;
+    color: #848484;
+    
+}
+.nav-right li a i{
+    font color: #747474;
+    font-family: 'Lato', sans-serif;
+
+}
+ul{
+    list-style: none;
+}
+
+.flex-container{
+
+    width: 100%;
+    margin: auto;
+}
+
+/* NAVBAR!*/
+.nav-main {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 20px;
+}
+.loguito {
+    width: 50px;
+}
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 15px;
+
+}
+.nav-main ul li a:hover{
+    border-bottom: 1px solid #747474;
+    opacity: .7;
+} 
+
+.article{
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.maintext {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.ferranis{
+    padding: 20px;
+    display: block;
+    float: none;
+    margin: 0 auto;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
