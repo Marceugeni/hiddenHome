@@ -2,21 +2,25 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
 }
+
+html{
+    font-size: 17px;
+}
+
 .hiddenLogo{
     padding: 50px;
     display: block;
     float: none;
     margin: 0 auto;
 }
-}
+
 
 body{
 
     font-family: 'Lato', sans-serif;
-    font-size: 17px;
-    font color: #848484;
+    font-size: 1rem;
+    color: #848484;
 }
 
 
@@ -28,7 +32,7 @@ a{
     
 }
 .nav-right li a i{
-    font color: #747474;
+    color: #747474;
     font-family: 'Lato', sans-serif;
 
 }
@@ -45,7 +49,7 @@ ul{
 /* NAVBAR!*/
 .nav-main {
     font-family: 'Lato', sans-serif;
-    font-size: 17px;
+    font-size: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,7 +57,7 @@ ul{
     padding: 20px;
 }
 .loguito {
-    width: 50px;
+    width: 2rem;
 }
 .nav-main ul{
     display: flex;
@@ -83,12 +87,12 @@ h2{
 
 .maintext {
     text-align: center;
-    padding: 20px;
+    padding: 1rem;
     font-family: 'Lato', sans-serif;
 }
 
 .ferranis{
-    padding: 20px;
+    padding: 2rem;
     display: block;
     float: none;
     margin: 0 auto;
@@ -97,5 +101,18 @@ h2{
 
 .footer {
     text-align: center;
-    padding: 20px;
+    padding: 1rem;
+}
+
+@media all and (max-widht: 200px) {
+
+    body {
+
+        color: black;
+    }
+
+    .flex-container{
+
+        color: black;
+    }
 }
